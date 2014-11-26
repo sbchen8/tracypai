@@ -37,12 +37,14 @@ module.exports.routes = {
   }, 
   
   '/hello': {
-  	view: 'hello'
+  	view: 'index'
   },
   
-  '*':{
-  	view: 'hello'
+  '/page/*': {
+  	
   }
+  
+  
   /***************************************************************************
   *                                                                          *
   * Custom routes here...                                                    *
