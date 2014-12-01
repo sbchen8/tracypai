@@ -7,5 +7,10 @@
 
 module.exports = {
 	
+	view: function (req,res){
+		// view: 'cms/pages'
+		
+	}
+	
 };
 
